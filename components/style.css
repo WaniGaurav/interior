@@ -18,6 +18,8 @@
     --iR-hei: 11.813rem;
     --iR-bt: 5rem;
     --iR-lf: 18.75rem;
+    --IDtxtBox-wd: 17.938rem;
+    --IDtxtBox-hei: 3.875rem;
 }
  @media (width < 1066px){   /* 770px */
     :root{
@@ -30,9 +32,11 @@
         --iI-wd: 21.938rem;
         --iI-hei: 16.52rem;
         --iR-wd: 18.75rem;
-        --iR-hei: 8.625rem;
+        --iR-hei: 8.625rem;     /* 8.625rem  9rem*/
         --iR-bt: 3.125rem;
         --iR-lf: 2.5rem;
+        --IDtxtBox-wd: 13.125rem;
+        --IDtxtBox-hei: 2.813rem;
     }
 }
 
@@ -221,6 +225,7 @@ img{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
+    /* margin: 1rem */
     
     /* padding-right: 30px; */
     /* left: 921px;
@@ -275,11 +280,17 @@ img{
 .reviewImageBox2{
     /* border: 2px solid tomato; */
     
-    width: 287px;
-    height: 62px;
-    left: 947px;
-    top: 815px;
+    width: var(--IDtxtBox-wd);
+    height: var(--IDtxtBox-hei);
+    /* left: 947px;
+    top: 815px; */
 
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 .reviewImageDesign{
     font-family: 'Lora';
@@ -312,25 +323,27 @@ img{
 
 /* Mobile */
 
-@media only screen and (width < 1066px) {        /* 770px */
+@media only screen and (width < 1066px) {        /* 770px 1066px */
     .container{
         display: grid;
         grid-template-rows: 0.1fr 2.4fr 0.1fr;
+        
         /* grid-template-columns: 1fr; */
         height: 100vh;
         width: 100%;
-        /* justify-self: center; */
         padding-top: 1rem;
         border: 2px solid tomato;
     }
     .Navbar{
         padding-left: 2rem;
-        border: 2px solid greenyellow;
+        /* justify-self: center; */
     }
     .main-Content{
         display: grid;
         grid-template-rows: 0.5fr 0.5fr;
         grid-template-columns: 1fr;
+        justify-self: center;
+        /* border: 2px solid greenyellow; */
     }
     /* column1 */
     .content{

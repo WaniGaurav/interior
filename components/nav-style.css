@@ -28,7 +28,7 @@
   .nav-link-toggle {
     display: none;
   }
-  @media only screen and (width < 1066px) {    /* 770px */
+  @media only screen and (width < 1066px) {    /* 770px 1066px*/
     .container{
       overflow: hidden;
       /* padding-top: 0; */
@@ -36,7 +36,9 @@
     .nav-items,
     .Navbar {
       flex-direction: column;
-      width: 100vw;
+      width: 100%;
+      /* width: fit-content ; */
+      /* width: 100vw; */
       /* width: 100%; */
       color: white;
       /* overflow: hidden; */
