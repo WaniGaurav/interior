@@ -36,10 +36,10 @@
     .nav-items,
     .Navbar {
       flex-direction: column;
-      width: 100%;
+      /* width: 100%; */
       /* width: fit-content ; */
       /* width: 100vw; */
-      /* width: 100%; */
+      width: 100%;
       color: white;
       /* overflow: hidden; */
       /* padding-left: 0; */

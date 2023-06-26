@@ -327,10 +327,12 @@ p {
     .container{
         display: grid;
         grid-template-rows: 0.1fr 2.4fr 0.1fr;
-        
+        justify-content: center;
         /* grid-template-columns: 1fr; */
-        height: 100vh;
-        width: 100%;
+        /* height: 100vh; */
+        /* width: 100%; */
+        height: fit-content;
+        width: auto;
         padding-top: 1rem;
         border: 2px solid tomato;
     }
@@ -343,6 +345,7 @@ p {
         grid-template-rows: 0.5fr 0.5fr;
         grid-template-columns: 1fr;
         justify-self: center;
+        width: fit-content;
         /* border: 2px solid greenyellow; */
     }
     /* column1 */
@@ -355,11 +358,24 @@ p {
         width: 100%;
         padding-left: 2rem;
     }
+    .title {
+        width: fit-content;
+    }
+    .description  {
+        width: fit-content;
+    }
+    .read-more {
+        width: fit-content;
+    }
     .testmonial{
         padding-left: 2rem;
+        width: fit-content;
     /* border: 2px solid greenyellow; */
     }
     .footer{
+        /* padding-left: 2rem; */
         align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
     }
 }
