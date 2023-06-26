@@ -31,12 +31,20 @@
         --fs-tstm: 0.625rem;
         --iI-wd: 21.938rem;
         --iI-hei: 16.52rem;
-        --iR-wd: 18.75rem;
+        --iR-wd: 18.75rem;      /*18.75rem;*/
         --iR-hei: 8.625rem;     /* 8.625rem  9rem*/
-        --iR-bt: 3.125rem;
+        --iR-bt: 3.125rem;       /*5rem;*/
         --iR-lf: 2.5rem;
         --IDtxtBox-wd: 13.125rem;
         --IDtxtBox-hei: 2.813rem;
+    }
+}
+@media (width < 400px ){
+    :root{
+    --iR-wd: 15.75rem;
+    --iR-hei: 8.125rem;
+    --iR-bt: 4rem;
+    --fs-tstxl: 1rem;
     }
 }
 
@@ -54,7 +62,8 @@ body{
     /* justify-content: space-between; */
     /* min-width: 58em;
     min-height: 58em; */
-    padding-top: 2.245rem;
+    /* padding-top: 2.245rem; */
+    padding: 2rem;
     height: 100vh;
     width: 100vw;
 }
@@ -209,6 +218,13 @@ img{
     /* left: 626px;
     top: 245px; */
 }
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .imageReview{
     display: block;
     /* border: 2px solid chartreuse;  */
@@ -224,7 +240,7 @@ img{
     /* width: 410px; */
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    padding: 1rem;
+    padding-left: 1rem;
     /* margin: 1rem */
     
     /* padding-right: 30px; */
@@ -336,10 +352,10 @@ p {
         padding-top: 1rem;
         border: 2px solid tomato;
     }
-    .Navbar{
+    /* .Navbar{
         padding-left: 2rem;
-        /* justify-self: center; */
-    }
+        justify-self: center;
+    } */
     .main-Content{
         display: grid;
         grid-template-rows: 0.5fr 0.5fr;
@@ -356,7 +372,7 @@ p {
         justify-content: space-evenly;
         align-self: center;
         width: 100%;
-        padding-left: 2rem;
+        /* padding-left: 2rem; */
     }
     .title {
         width: fit-content;
@@ -367,8 +383,11 @@ p {
     .read-more {
         width: fit-content;
     }
+    .reviewImageDesign{
+        line-height: 1.5rem;
+    } 
     .testmonial{
-        padding-left: 2rem;
+        /* padding-left: 2rem; */
         width: fit-content;
     /* border: 2px solid greenyellow; */
     }
