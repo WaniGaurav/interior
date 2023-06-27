@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Interior Consultant}</h1>
+<h1 align="center">Interior Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://interiorgw.netlify.app/}">
+    <a href="https://interiorgw.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,9 +37,9 @@
 ## Overview
 
 ![screenshots]
-(https://github.com/WaniGaurav/interior/assets/25397564/f4b4c531-72e6-4b24-8d4f-2c83e887a1b9)
-(https://github.com/WaniGaurav/interior/assets/25397564/3f03bbab-c724-4627-9545-fd99f935bec2)
-(https://github.com/WaniGaurav/interior/assets/25397564/d731a31e-e364-4441-a96a-856521fcde51)
+(https://github.com/WaniGaurav/interior/assets/25397564/f4b4c531-72e6-4b24-8d4f-2c83e887a1b9.png)
+(https://github.com/WaniGaurav/interior/assets/25397564/3f03bbab-c724-4627-9545-fd99f935bec2.png)
+(https://github.com/WaniGaurav/interior/assets/25397564/d731a31e-e364-4441-a96a-856521fcde51.png)
 
 
 ### Built With
