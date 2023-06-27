@@ -36,10 +36,9 @@
 
 ## Overview
 
-![screenshots]
-(https://github.com/WaniGaurav/interior/assets/25397564/f4b4c531-72e6-4b24-8d4f-2c83e887a1b9.png)
-(https://github.com/WaniGaurav/interior/assets/25397564/3f03bbab-c724-4627-9545-fd99f935bec2.png)
-(https://github.com/WaniGaurav/interior/assets/25397564/d731a31e-e364-4441-a96a-856521fcde51.png)
+![1](https://github.com/WaniGaurav/interior/assets/25397564/6eacaaa7-51a7-4ce1-9580-92ce22c92132)
+![2](https://github.com/WaniGaurav/interior/assets/25397564/0cfb3a4f-e02a-431e-9176-a709df639bc1)
+![3](https://github.com/WaniGaurav/interior/assets/25397564/7481488a-cdb2-4c6d-8707-303983c5c824)
 
 
 ### Built With
