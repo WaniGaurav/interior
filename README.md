@@ -65,5 +65,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://gauravwani-portfolio.netlify.app/)
+- Website [Portfolio](https://gauravwani-portfolio.netlify.app/)
 - GitHub [@WaniGaurav](https://github.com/WaniGaurav/interior/tree/main)
